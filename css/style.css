@@ -24,6 +24,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    min-width: 320px;
 }
 
 .container {
@@ -83,12 +84,17 @@ body {
 .main-pic {
     width: 40%;
 }
+.image-wrapper {
+    width: 60%;
+    float: right;
+    max-width: 260px;
+    margin-right: 80px;
+}
 
 .main-pic img {
-    float: right;
-    width: 60%;
-    margin-right: 80px;
-    max-width: 260px;
+    width: 100%;
+    margin-top: -22%;
+    
 }
 
 .main-text {
@@ -196,7 +202,7 @@ color: inherit;
         font-size: 5.5vw;
     }
 
-    .main-pic img {
+    .image-wrapper {
         max-width: none;
     }
     
@@ -232,13 +238,20 @@ color: inherit;
 
     }
 
-    .main-pic img {
+    .image-wrapper {
         float: none;
         width: 80%;
-        margin-right: 0;
-        margin-bottom: 80px
+        margin-bottom: 80px;
+        margin-left: auto;
+        margin-right: auto;
+
     }
-    
+
+    .main-pic img {
+        margin-top: 0;
+        
+    }
+
     .main-text {
         width: 100%;
     }
@@ -280,11 +293,11 @@ color: inherit;
         margin-top: 40px;
         margin-bottom: 40px;
     }
-
-    .main-pic img {
+    .image-wrapper {
         max-width: none;
         margin-bottom: 50px;
     }
+
 
     
 }
