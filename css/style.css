@@ -128,10 +128,14 @@ body {
     border-bottom: 4px solid #ffb13d;
 }
 
-.icon-link:hover {
-    opacity: 0.5;
+
+.svg-icon {
+    fill: #0c0050;
 }
 
+.svg-icon:hover {
+    fill: #ac387e;
+}
 
 a {
     position: relative;
