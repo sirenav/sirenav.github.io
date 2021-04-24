@@ -85,9 +85,9 @@ body {
     width: 40%;
 }
 .image-wrapper {
-    width: 60%;
+    width: 55%;
     float: right;
-    max-width: 260px;
+    min-width: 320px;
     margin-right: 80px;
 }
 
