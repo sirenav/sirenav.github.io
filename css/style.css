@@ -210,8 +210,8 @@ color: inherit;
 
     .main-text-text {
         max-width: none;
-        font-size: 14pt;
-        line-height: 19pt;
+        font-size: 13pt;
+        line-height: 17pt;
         text-align: center;
         padding-left: 8%;
         padding-right: 8%;
@@ -243,10 +243,12 @@ color: inherit;
 @media only screen and (max-width: 600px) {
     .title-box {
         margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .main-pic img {
         max-width: none;
+        margin-bottom: 50px;
     }
 
     
